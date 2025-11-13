@@ -1,1 +1,16 @@
 /* Add CSS Styling */
+.oddNumbers {
+    background: pink;
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+    font-size: 24px;
+}
+#evenNumber {
+    color: blue;
+    font-size: 36px;
+    
+}
+#evenNumber2 {
+    background: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
