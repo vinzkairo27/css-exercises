@@ -27,6 +27,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-left: 16px;
 }
 
 button {
@@ -35,6 +36,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  flex-shrink: 0;
 }
 
 a {
@@ -45,4 +47,28 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 16px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-start;
+  gap: 16px;
+}
+/*******************************/
+.header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+.items-left  {
+  flex-grow: 1;
+}
+.items-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.profile-image {
+  margin-right: 16px;
+  flex-shrink: 0;
 }
