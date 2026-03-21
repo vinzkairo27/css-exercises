@@ -48,7 +48,7 @@ a {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 16px;
+  padding: 8px;
   display: flex;
   flex-grow: 1;
   justify-content: flex-start;
@@ -58,7 +58,7 @@ ul {
 .header {
   display: flex;
   align-items: center;
-  height: 60px;
+  padding: 8px;
 }
 .items-left  {
   flex-grow: 1;
