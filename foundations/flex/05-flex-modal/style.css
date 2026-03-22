@@ -102,3 +102,6 @@ button.cancel {
   margin-top: 12px;
   gap: 5px;
 }
+.close-button {
+  margin-top: 8px;
+}
