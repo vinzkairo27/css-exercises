@@ -24,3 +24,131 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+/********************************/
+.header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 230px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* border: 6px solid; */
+}
+.header .left-links {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  /* border: 3px solid salmon; */
+}
+.header .right-links {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  /* border: 3px solid rgb(13, 187, 199); */
+}
+.content {
+  text-align: center;
+  height: 550px; 
+  /* border: 3px solid red; */
+}
+.footer ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  height: 60px;
+  background: #eeeeee;
+  /* border: 5px blue solid; */
+}
+.footer .left-links {
+  display: flex;
+  align-self: center;
+  gap: 12px;
+  padding: 12px;
+  /* border: 3px solid; */
+}
+.footer .right-links {
+  display: flex;
+  align-self: center;
+  gap: 12px;
+  padding: 12px;
+  /* border: 3px solid yellow; */
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 12px;
+}
+button {
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* .header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid;  
+}
+
+.left-links {
+  display: flex;
+  margin-left: 12px;
+  gap: 12px;
+  margin-top: 12px;
+  border: solid green 2px; 
+}
+.right-links {
+  display: flex;
+  margin-right: 12px;
+  gap: 12px;
+  margin-top: 12px; 
+   border: solid red 2px; 
+  
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border: 3px blue solid;
+  height: 480px;
+  flex-basis: auto;
+  align-items: end;
+  background: #bbaeae;
+}
+.content {
+
+  align-items: center;
+  border: 3px solid rgb(0, 245, 110);
+  text-align: center; 
+  
+}
+.input {
+  
+  border: 3px solid; 
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+  gap: 6px;
+
+  border: 3px solid salmon; 
+}
+button {
+  padding: 10px; 
+} */
